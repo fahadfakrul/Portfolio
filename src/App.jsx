@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 
@@ -9,6 +10,7 @@ const App = () => {
       <div className="container mx-auto px-8">
         <NavBar></NavBar>
         <Hero></Hero>
+        <About></About>
       </div>
     </div>
   );
