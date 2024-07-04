@@ -14,7 +14,7 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex items-center justify-between flex-wrap">
+      <div className="flex items-center justify-between flex-wrap ">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
@@ -48,7 +48,7 @@ const Hero = () => {
            <a href={My_resume} download="My resume.pdf" target='_blank'> <button className="border border-[#931CC1] rounded-full p-3 bg-gradient-to-r from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-xl tracking-tight text-transparent transition hover:scale-105">My Resume</button></a>
           </div>
         </div>
-        <div className="w-full  lg:w-[500px] lg:p-8">
+        <div className="w-full mt-5 lg:mt-0 lg:w-[500px] lg:p-8">
           <div className="flex  justify-center">
             <motion.img initial={{x:100, opacity:0}}
             animate={{x:0 , opacity:1}}
