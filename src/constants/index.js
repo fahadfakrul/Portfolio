@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -54,37 +54,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tourism Website (Explore ME)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Explore ME is an innovative Middle East-based tourism website that allows travelers to discover destinations across the Middle East. The platform is designed to share information on tourism places the travelers so that users can find the best spot before traveling.",
+    technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express"],
   },
   {
-    title: "Task Management App",
+    title: "Diagnostic Center (Prime Lab)",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Prime Lab is a diagnostics website to book and maintain tests. The dashboards for user and admin plays a crucial role in maintaining them.",
+    technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express","JWT", "Tanstack-query"],
   },
   {
-    title: "Portfolio Website",
+    title: "Hotel Booking Platform (Stay Sphere)",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "Stay Sphere is a modern hotel booking platform designed to provide a seamless and user-friendly experience for booking hotel rooms. It offers a range of features to enhance user experience, manage bookings efficiently, and ensure secure authentication.",
+    technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express","JWT"],
+  }
+  
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "North West Jatrabari, Dhaka ",
+  phoneNo: "+880 178 024 3459 ",
+  email: "fahadfakrul998@gmail.com",
 };
