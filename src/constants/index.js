@@ -78,7 +78,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "North West Jatrabari, Dhaka ",
+  address: "108, 11 No Street, North West Jatrabari, Dhaka ",
   phoneNo: "+880 178 024 3459 ",
   email: "fahadfakrul998@gmail.com",
 };
