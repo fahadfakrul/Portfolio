@@ -35,6 +35,10 @@ const Projects = () => {
                 </span>
               ))}
             </div>
+            <div className="my-3 flex gap-4">
+            <a href={project.gitLink} download="My resume.pdf" target='_blank'> <button className="border border-[#931CC1] rounded-full px-3 py-1 bg-gradient-to-r from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-xl tracking-tight text-transparent transition hover:scale-105">Git Repo</button></a>
+            <a href={project.liveLink} download="My resume.pdf" target='_blank'> <button className="border border-[#931CC1] rounded-full px-3 py-1 bg-gradient-to-r from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-xl tracking-tight text-transparent transition hover:scale-105">Live Site</button></a>
+            </div>
           </motion.div>
         </div>
       ))}

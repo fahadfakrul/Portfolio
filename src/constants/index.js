@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a passionate learner, programmer, and aspiring front end web developer, I thrive on the excitement of building and creating in the digital realm.I enjoy creating beautiful websites because I feel pleasure to create something that not only looks good but also provides value to the users. I love to work on new challenging design and how it impacts on people's lives to make them easier.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a 4th-year undergraduate Student at Northern University Bangladesh, pursuing a Bachelors in Computer Science, who is passionate about Web Development. I am comfortable with the MERN stack and prefer using Tailwind CSS and React. I love to learn and contribute in any and every possible way.`;
 export const EDUCATION = [
   {
     year: "2021 - Present",
@@ -59,6 +59,8 @@ export const PROJECTS = [
     description:
       "Explore ME is an innovative Middle East-based tourism website that allows travelers to discover destinations across the Middle East. The platform is designed to share information on tourism places the travelers so that users can find the best spot before traveling.",
     technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express"],
+    liveLink: "https://explore-me-tourism.web.app/",
+    gitLink: "https://github.com/fahadfakrul/Explore-Me-Client",
   },
   {
     title: "Diagnostic Center (Prime Lab)",
@@ -66,6 +68,8 @@ export const PROJECTS = [
     description:
       "Prime Lab is a diagnostics website to book and maintain tests. The dashboards for user and admin plays a crucial role in maintaining them.",
     technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express","JWT", "Tanstack-query"],
+    liveLink: "https://prime-lab-diagnostic.web.app/",
+    gitLink: "https://github.com/fahadfakrul/Prime-Lab-Client",
   },
   {
     title: "Hotel Booking Platform (Stay Sphere)",
@@ -73,6 +77,8 @@ export const PROJECTS = [
     description:
       "Stay Sphere is a modern hotel booking platform designed to provide a seamless and user-friendly experience for booking hotel rooms. It offers a range of features to enhance user experience, manage bookings efficiently, and ensure secure authentication.",
     technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express","JWT"],
+    liveLink: "https://stay-sphere-ebed4.web.app/",
+    gitLink: "https://github.com/fahadfakrul/Stay-Sphere-Client",
   }
   
 ];

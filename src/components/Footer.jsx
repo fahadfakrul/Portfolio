@@ -1,5 +1,7 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -22,6 +24,11 @@ const Footer = () => {
         <a href="#" className="border-b">
           {CONTACT.email}
         </a>
+        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+       <a className="transition hover:scale-110" href="https://github.com/fahadfakrul" target="blank"> <FaGithub ></FaGithub></a>
+        <a className="transition hover:scale-110" href="https://linkedin.com/in/fahadfakrul" target="blank"><FaLinkedin></FaLinkedin></a>
+        <a className="transition hover:scale-110"  href="https://twitter.com/fahadfakrul916" target="blank"><FaSquareXTwitter></FaSquareXTwitter></a>
+      </div>
       </div>
     </div>
   );
