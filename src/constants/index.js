@@ -66,7 +66,7 @@ export const PROJECTS = [
     title: "Diagnostic Center (Prime Lab)",
     image: project2,
     description:
-      "Prime Lab is a diagnostics website to book and maintain tests. The dashboards for user and admin plays a crucial role in maintaining them.",
+      "Prime Lab is a diagnostics website to book and maintain tests. The dashboards for user and admin plays a crucial role in maintaining them. The dashboard can be accessed by email: arif@gmail.com pass: Aa123456",
     technologies: ["HTML", "CSS","Tailwind","Javascript", "React", "Node.js", "MongoDB","Firebase","Express","JWT", "Tanstack-query"],
     liveLink: "https://prime-lab-diagnostic.web.app/",
     gitLink: "https://github.com/fahadfakrul/Prime-Lab-Client",
